@@ -18,17 +18,17 @@ public class Main {
 			System.out.println(cad1 + " no es exactamente igual a " + cad2);
 		}
 		if (cad1.equalsIgnoreCase(cad2) == true) {
-			System.out.println(cad1 + " es igual a: " + cad2 + ", sin tener en cuenta mayúsculas/minúsculas");
+			System.out.println(cad1 + " es igual a: " + cad2 + ", sin tener en cuenta mayÃºsculas/minÃºsculas");
 		} else {
-			System.out.println(cad1 + " no es igual a: " + cad2 + ", sin tener en cuenta mayúsculas/minúsculas");
+			System.out.println(cad1 + " no es igual a: " + cad2 + ", sin tener en cuenta mayÃºsculas/minÃºsculas");
 		}
 		if (cad1.compareTo(cad2) == 0) {
 			System.out.println(cad1 + " es exactamente igual a: " + cad2);
 		} else {
 			if (cad1.compareTo(cad2) > 0) {
-				System.out.println(cad1 + " es mayor alfabéticamente que: " + cad2);
+				System.out.println(cad1 + " es mayor alfabÃ©ticamente que: " + cad2);
 			} else {
-				System.out.println(cad2 + " es mayor alfabéticamente que: " + cad1);
+				System.out.println(cad2 + " es mayor alfabÃ©ticamente que: " + cad1);
 			}
 		}
 		char carac1 = cad1.charAt(0);
@@ -39,12 +39,12 @@ public class Main {
 		System.out.println("Los primeros tres caracteres de: " + cad1 + " son: " + cad3);
 		int posi = cad1.indexOf(cad2);
 		if (posi == -1) {
-			System.out.println(cad2 + ", no está contenido en: " + cad1);
+			System.out.println(cad2 + ", no estÃ¡ contenido en: " + cad1);
 		} else {
-			System.out.println(cad2 + ", está contenido en: " + cad1 + ", a partir de la posición: " + posi);
+			System.out.println(cad2 + ", estÃ¡ contenido en: " + cad1 + ", a partir de la posiciÃ³n: " + posi);
 		}
-		System.out.println(cad1 + ", convertido a mayúsculas es: " + cad1.toUpperCase());
-		System.out.println(cad1 + ", convertido a minúsculas es: " + cad1.toLowerCase());
+		System.out.println(cad1 + ", convertido a mayÃºsculas es: " + cad1.toUpperCase());
+		System.out.println(cad1 + ", convertido a minÃºsculas es: " + cad1.toLowerCase());
 	}
 
 }
