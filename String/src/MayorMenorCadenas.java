@@ -7,9 +7,9 @@ public class MayorMenorCadenas {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Escribe la primera cadena: ");
-		String cadena1 = in.nextLine();
+		String cadena1 = in.nextLine().toLowerCase();
 		System.out.print("Escribe la segunda cadena: ");
-		String cadena2 = in.nextLine();
+		String cadena2 = in.nextLine().toLowerCase();
 
 		if (cadena1.compareTo(cadena2) == 0) {
 			System.out.println("Es exactmente igual ");
